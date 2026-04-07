@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Soul Resonance Chess</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="app">
+      <section class="panel lore">
+        <h1>Soul Resonance Chess</h1>
+        <p>
+          A Soul Eater inspired duel between <strong>Meisters</strong> and
+          <strong>Weapons</strong>. Keep your resonance high and your king alive.
+        </p>
+        <ul>
+          <li><span class="tag meister">White</span> DWMA Meisters</li>
+          <li><span class="tag weapon">Black</span> Kishin Weapons</li>
+        </ul>
+        <button id="resetButton">Reset Match</button>
+      </section>
+
+      <section class="board-wrap">
+        <div class="status-row">
+          <p id="turnLabel">Turn: White</p>
+          <p id="statusLabel">Choose a fighter.</p>
+        </div>
+        <div id="board" class="board" role="grid" aria-label="Chess board"></div>
+      </section>
+
+      <section class="panel legend">
+        <h2>Unit Codex</h2>
+        <div class="legend-grid">
+          <p>♔ Death Scythe King</p>
+          <p>♕ Witch Queen</p>
+          <p>♖ Demon Cannon</p>
+          <p>♗ Soul Reaper</p>
+          <p>♘ Black☆Hunter</p>
+          <p>♙ Resonance Pawn</p>
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
